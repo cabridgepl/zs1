@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Systemy liczbowe</title>
+</head>
+<body>
+
+   <script>
+       document.write('<h4>Zamiana liczb oktalnych na decymalne</h4>')
+       var elwynik = document.getElementById('wynik');
+       var oktal = prompt('Podaj liczbę ósemkową');
+       var zmienoktalna = '0o' + oktal;
+       zmienoktalna = Number(zmienoktalna);
+       console.log(typeof(zmienoktalna));
+       document.write('<br>(' + oktal + ')<sub>8</sub> = (' + zmienoktalna + ")<sub>10</sub>");
+       elwynik.style.color = '#0009eb';
+       </script>
+
+
+</body>
+</html>

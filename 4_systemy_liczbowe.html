@@ -10,7 +10,7 @@
 
    <script>
        var elwynik = document.getElementById('wynik');
-     document.write('<h3>Systemy liczbowe</h3>');
+       document.write('<h3>Systemy liczbowe</h3>');
        var dziesietna = 15;
        var oktalna = 0o15;
        elwynik.style.color = '#0009eb';
@@ -18,19 +18,34 @@
        var hex = 0xA;
        console.log(typeof(hex));
        document.write('(A)<sub>16</sub> = (' + hex + ')<sub>10</sub>');
-
         ////////// zad.1
-
        var szesnastkowa = prompt('Podaj liczbę szesnastkową');
        var zamienhex = '0x' + szesnastkowa;
        zamienhex = Number(zamienhex )
        console.log(typeof(zamienhex));
         elwynik.innerHTML = '(' + szesnastkowa + ')<sub>16</sub> = (' + zamienhex + ")<sub>10</sub>";
 
+       // napisz program konwertujący system oktalny na decymal
+
+       ////////////////////////////////////////////////////////////////
 
 
+       var wynik2 = document.getElementById('wynik1');
+       document.write('<h3>Systemy liczbowe</3>');
+       var oktalna = 05
+       var dziesietna = 5
+       wynik2.style.color = '#0009eb';
+       wynik2.innerHTML = '(12)<sub>8</sub> = (' + oktalna + ")<sub>10</sub>";
+       var okt = 0
+       console.log(typeof(okt));
+       document.write('(7)<sub>8</sub> = (' + okt + ')<sub>10</sub>
+       var oktalna = prompt('Podaj liczbę oktalną');
+       var zamienokt = '0o' + oktalna;
+       zamienokt = Number(zamienokt)
+       console.log(typeof(zamienokt))
+       wynik2.innerHTML = '(' + oktalna + ')<sub>8</sub> = (' + zamienokt + ")<sub>10</sub>
 
-    </script>
+       </script>
 
 
 </body>
