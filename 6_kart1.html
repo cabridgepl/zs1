@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kartkówka</title>
+</head>
+<body>
+
+<!--Obliczanie pola kwadratu-->
+<div id="wynik"></div>
+<script>
+
+    /*var bok = prompt("podaj długość boku");
+    var pole = bok * bok;
+    console.log(pole);
+    pole = pole.toFixed(2);
+    wynik.innerHTML = pole + " cm<sup>2</sup>"; */
+
+    /*przeliczanie systemów liczbowych*/
+    /*var elwynik = document.getElementById('wynik')
+    var szes = prompt("podaj liczbę");
+    var zamien = '0x' + szes;
+    zamien=Number(zamien);
+    console.log(zamien);
+    elwynik.innerHTML='(' + szes + ')<sub>16</sub> = (' + zamien + ')<sub>10</sub>';*/
+
+//oblicz pole trójkąta
+var wynik1 = document.getElementById('wynik')
+var cos1 = prompt("podaj podstawę trójkąta");
+var cos2 = prompt("podaj wysokość trójkąta");
+cos1 = Number(cos1)
+cos2 = Number(cos2)
+var pole = cos1 * cos2
+var pole2 = pole/2
+pole2=pole2.toFixed(3);
+wynik1.innerHTML=(pole2) + " to jest twoje pole";
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
