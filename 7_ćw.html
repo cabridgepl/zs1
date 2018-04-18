@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ćwiczenie</title>
+</head>
+<body>
+   <script>
+    //var miasto = prompt('Podaj miasto', 'Np. Poznań, Swarzędz, Gniezno');
+    /*switch (miasto) {
+        case 'Poznań':
+         var pilka = prompt('Czy lubisz piłkę nożną? ', 'tak/nie');
+            if (pilka =='tak'){
+                 document.write('Lech Poznań');
+            }else{
+                document.write('Nie jesteś fanem piłki nożnej');
+            }
+            break;
+
+        case 'Swarzędz':
+         var pilka = prompt('Czy lubisz piłkę nożną? ', 'tak/nie');
+            if (pilka =='tak'){
+                 document.write('Unia Swarzędz');
+                }
+                else
+                {
+                document.write('Nie jesteś fanem piłki nożnej');
+                }
+                break;
+
+
+        case 'Gniezno':
+         var pilka = prompt('Czy lubisz piłkę nożną? ', 'tak/nie');
+            if (pilka =='tak'){
+                 document.write('Mieszko Gniezno');
+                }
+                else
+                {
+                document.write('Nie jesteś fanem piłki nożnej');
+                }
+                break;
+                default:
+                document.write('Podałeś inne miasto');
+    }     */
+    //warunek_hasło
+    var haslo = prompt('Podaj hasło');
+    var dlugosc = haslo.length
+    var dl;
+    console.log(dlugosc)
+
+       if (dlugosc <=0){
+        dl = 'Błędne';
+       }
+       if (dlugosc <= 4 && dlugosc <=4){
+           dl = 'krótkie';
+       }    else if (dlugosc > 4 && dlugosc <= 8){
+           dl = 'średnie'
+       }    else {
+           dl = 'długie'
+            }
+       document.write("hasło jest " + dl);
+
+
+    </script>
+
+
+
+</body>
+</html>
