@@ -10,7 +10,7 @@ b1.innerHTML = 'nowy tekst';
 b1.innerHTML = 'Swarzędz';
 b2.innerHTML = 'Poznań';
 
-var miasto = prompt('Posaj ulubione miasto');
+var miasto = prompt('Podaj ulubione miasto');
 b3.innerHTML = miasto;
 
 var stolica = 'Gniezno';

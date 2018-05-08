@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ćwiczenie</title>
+</head>
+<body>
+   <script>
+    var haslo = prompt('Podaj hasło');
+    var pen = haslo.length;
+    var dl;
+    switch (pen <=0) {
+        case true:
+        dl = "Błędne";
+        break;
+        case false:
+
+    switch(pen > 0 && pen <=4){
+        case true:
+        dl = "krótkie".fontcolor("blue");
+        break;
+        case false:
+
+    switch(pen > 4 && pen <=8){
+        case true:
+        dl = "średnie".fontcolor("red")
+        break;
+        case false:
+        dl = "długie".fontcolor("green")
+                    }
+            break;
+                 }
+        break;
+             }
+
+       document.write("Twoje hasło jest " + dl)
+
+    </script>
+
+
+
+</body>
+</html>

@@ -2,29 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ćwiczenie</title>
+    <title>Document</title>
 </head>
-<body>
-   <script>
-
+<script>
     var haslo = prompt('Podaj hasło');
     var dlugosc = haslo.length
     var dl;
-    console.log(dlugosc)
+
        if (dlugosc <=0){
         dl = 'Błędne';
        }
-       if (dlugosc <= 4 && dlugosc <=4){
+            else if (dlugosc > 0 && dlugosc <= 4){
            dl = 'krótkie';
        }    else if (dlugosc > 4 && dlugosc <= 8){
            dl = 'średnie'
-       }    else {
+       }    else{
            dl = 'długie'
             }
-       document.write("hasło jest " + dl);
+       document.write("hasło jest " + dl);\
+
+
+    //zmodyfikuj kod i wykorzystaj switch jeśli hasło będzie błedne lub krótkie to komunikat będzie czerwony, średnie kolor niebieski, długie zielony
+
+
+
+
     </script>
-
-
+<body>
 
 </body>
 </html>

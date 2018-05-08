@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Systemy liczbowe</title>
+</head>
+<body>
+
+      <div id="wynik">treść</div>
+
+   <script>
+       var elwynik = document.getElementById('wynik');
+       document.write('<h3>Systemy liczbowe</h3>');
+       var dziesietna = 15;
+       var oktalna = 0o15;
+       elwynik.style.color = '#0009eb';
+       elwynik.innerHTML = '(12)<sub>8</sub> = (' + oktalna + ")<sub>10</sub>";
+       var hex = 0xA;
+       console.log(typeof(hex));
+       document.write('(A)<sub>16</sub> = (' + hex + ')<sub>10</sub>');
+
+       ////////// zad.1
+
+       var szesnastkowa = prompt('Podaj liczbę szesnastkową');
+       var zamienhex = '0x' + szesnastkowa;
+       zamienhex = Number(zamienhex )
+       console.log(typeof(zamienhex));
+        elwynik.innerHTML = '(' + szesnastkowa + ')<sub>16</sub> = (' + zamienhex + ")<sub>10</sub>";
+    </script>
+    </body>
+</html>

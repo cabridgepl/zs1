@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Systemy liczbowe</title>
+</head>
+<body>
+
+      <div id="wynik">treść</div>
+
+   <script>
+       var elwynik = document.getElementById('wynik');
+       var wpisz = prompt("Napisz liczbę szesnastkową!");
+       var zamienna = '0' + wpisz;
+       zamienna=Number(zamienna)
+       elwynik.innerHTML = '(' +wpisz+ ')<sub>16</sub> = (' + zamienna+ ")<sub>10</sub>";
+    </script>

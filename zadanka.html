@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Systemy liczbowe</title>
+</head>
+<body>
+
+      <div id="wynik">treść</div>
+      <div id="cos">treść</div>
+
+   <script>
+       var elwynik = document.getElementById('wynik');
+       var cos1 = document.getElementById('cos');
+       var wiekanny = prompt("Podaj swoj wiek Anna");
+       var wiektomka = prompt("Podaj swoj wiek Tomek");
+        wiekanny=Number(wiekanny);
+        wiektomka=Number(wiektomka);
+        var razem = wiekanny + wiektomka;
+        var sredniWiek = razem /2;
+       sredniWiek = sredniWiek.toFixed(5)
+       elwynik.innerHTML = razem + " = wspólny wiek";
+       cos1.innerHTML = sredniWiek + " = średnia";
+
+
+
+    </script>
+    </body>
+</html>

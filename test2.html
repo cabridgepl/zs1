@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>jazda</title>
+</head>
+<body>
+
+<div id="wiek">treśc</div>
+<div id="srednia">treśc</div>
+
+<script>
+var wiek1 = document.getElementById('wiek');
+var srednia1 = document.getElementById('srednia');
+var podaj1 = prompt("podaj wiek aniu!");
+var podaj2 = prompt("podaj wiek tomku!");
+podaj1 = Number(podaj1);
+podaj2 = Number(podaj2);
+var suma = podaj1 + podaj2;
+var srednia2 = suma/2
+srednia2 = srednia2.toFixed(2)
+wiek1.innerHTML=suma;
+srednia1.innerHTML=srednia2;
+
+
+
+</script>
+
+
+</body>
+
+
+
+
+</html>

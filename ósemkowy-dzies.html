@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Systemy liczbowe</title>
+</head>
+<body>
+
+      <div id="wynik">treść</div>
+
+   <script>
+       var elwynik = document.getElementById('wynik');
+       var wpisz = prompt("Napisz liczbę ósemkową!");
+       var zamienna = "0o" + wpisz;
+       zamienna=Number(zamienna)
+       elwynik.innerHTML = '(' +wpisz+ ')<sub>8</sub> = (' + zamienna+ ")<sub>10</sub>";
+    </script>
