@@ -11,19 +11,19 @@
     var dl;
     switch (pen <=0) {
         case true:
-        dl = "Błędne";
+        dl = "Błędne".fontcolor("red");
         break;
         case false:
 
     switch(pen > 0 && pen <=4){
         case true:
-        dl = "krótkie".fontcolor("blue");
+        dl = "krótkie".fontcolor("red");
         break;
         case false:
 
     switch(pen > 4 && pen <=8){
         case true:
-        dl = "średnie".fontcolor("red")
+        dl = "średnie".fontcolor("blue")
         break;
         case false:
         dl = "długie".fontcolor("green")
